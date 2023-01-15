@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../static/base.css">
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+    <script src= "../static/base.js" ></script>
+    <title>HOME</title>
+</head>
+
+<body>
+
+    <!-- this is main form of website -->
+    <form action="/result" id="form-element" method="post">
+        <div class="ping">
+            <fieldset>
+                <legend>Welcome</legend>
+                <LABEL>Enter url : </LABEL>
+                <input type="text" id="name" name="name" autocomplete="off" placeholder="www.google.com"><br><br>
+                <button type="submit" id="animation-button" id="submit-button" value="Submit">Submit</button>
+            </fieldset>
+            <br><br>
+            <br>
+            <div id="animation-container">
+               <div id="loading-animation">
+                <div class="loader">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+                </div>
+                <div>
+                    <h1>Loading..</h1>
+                    <h2>Please wait...</h2>
+                    <p>Your Network Logs are being captured</p>
+                </div>
+            </div>
+            </div>
+
+        </div>
+
+    </form>
+
+</body>
+
+</html>
